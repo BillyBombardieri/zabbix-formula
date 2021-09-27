@@ -1,4 +1,4 @@
-{% from "zabbix/map.jinja" import zabbix with context -%}
+{% from "zabbix/map.jinja" import zabbix -%}
 {% from "zabbix/libtofs.jinja" import files_switch with context -%}
 {% set config_file = salt.file.basename(zabbix.frontend.config) -%}
 {% set config_file_dir = salt.file.dirname(zabbix.frontend.config) -%}
