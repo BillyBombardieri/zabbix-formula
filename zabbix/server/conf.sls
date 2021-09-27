@@ -1,4 +1,4 @@
-{% from "zabbix/map.jinja" import zabbix with context -%}
+{% from "zabbix/map.jinja" import zabbix -%}
 {% from "zabbix/libtofs.jinja" import files_switch with context -%}
 
 
